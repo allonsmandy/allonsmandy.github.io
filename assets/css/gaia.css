@@ -769,7 +769,7 @@ a,
 }
 
 .btn-lg {
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 4px;
   padding: 16px 32px;
 }
@@ -2819,7 +2819,7 @@ a,
     line-height: 1.25;
   }
   h1.responsive-small {
-    font-size: 2.3em !important;
+    font-size: 1.3em !important;
   }
 
   h2 {
@@ -2877,6 +2877,7 @@ a,
   .btn {
     margin: 0 auto 15px;
     float: none;
+
   }
 
   .section-contact-3 .address-container {
@@ -2911,6 +2912,7 @@ a,
 
   .navbar-transparent .navbar-brand {
     color: #FFFFFF;
+    font-size: 1rem;
   }
 }
 @-webkit-keyframes fadeIn {
@@ -3742,9 +3744,19 @@ body {
     margin-top: 0;
     margin-right: 0;
   }
+  /* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+  and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
+  {
+     .h1 {
+       font-size: 5px;
+     }
+  } */
 }
 @media (min-width: 992px) {
   .section-pricing .row [class^="col-"] {
     padding: 0;
   }
+
+
 }
+
